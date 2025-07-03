@@ -12,20 +12,21 @@ export class CdkStack extends cdk.Stack {
     // We start with our VPC here, nothing fancy, after that, we'll move on to our API Gateway and Lambda instances.
     const vpc = new ec2.Vpc(this, 'ChurchVPC', {
     ipAddresses: ec2.IpAddresses.cidr('10.0.0.0/16'),
+    natGateways: 0
     });
     const selection = vpc.selectSubnets({
-    subnetType: ec2.SubnetType.PRIVATE_WITH_EGRESS
+    subnetType: ec2.SubnetType.PRIVATE_ISOLATED
     });
     // Lambda Functions:
     const ingestLambda = new lambda.Function(this, 'ingest', {
       runtime: lambda.Runtime.NODEJS_18_X,
       handler: 'index.handler',
-      code: lambda.Code.fromAsset('src/ingest/index.ts'),
+      code: lambda.Code.fromAsset('src/ingest/'),
     });
     const fraudDetectionLambda = new lambda.Function(this, 'fraudDetection', {
       runtime: lambda.Runtime.NODEJS_18_X,
       handler: 'index.handler',
-      code: lambda.Code.fromAsset('src/fraudDetection/index.ts'),
+      code: lambda.Code.fromAsset('src/fraudDetection/'),
     });
     // StepFunctions + StateMachine steps:
     const ingestStep = new sfn_tasks.LambdaInvoke(this, 'IngestStep', {

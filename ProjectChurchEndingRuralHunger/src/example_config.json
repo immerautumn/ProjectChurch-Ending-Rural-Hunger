@@ -1,0 +1,62 @@
+{
+  "id": "user-12345",
+  "name": {
+    "first": "Jane",
+    "last": "Doe"
+  },
+  "dateOfBirth": "1980-04-12",
+  "sex": "female",
+  "race": "white",
+  "ethnicity": "non-hispanic",
+  "maritalStatus": "married",
+  "veteranStatus": "veteran",
+  "militaryBranch": "army",
+  "household": {
+    "adults": 2,
+    "children": 3,
+    "seniors": 1,
+    "totalMembers": 6
+  },
+  "address": {
+    "street": "123 Main St",
+    "city": "Berea",
+    "state": "KY",
+    "zip": "40403",
+    "county": "Madison"
+  },
+  "contact": {
+    "phone": "555-123-4567",
+    "email": "jane.doe@example.com"
+  },
+  "identifiers": {
+    "driverLicense": "KY1234567",
+    "ssnLast4": "6789"
+  },
+  "intake": {
+    "createdAt": "2025-07-03T18:30:00Z",
+    "createdBy": "volunteer-001",
+    "notes": "Single income household, recently laid off",
+    "programsEnrolled": [
+        "food-assistance",
+        "emergency-food-box",
+        "clothing",
+        "hygiene-kits",
+        "meals-on-wheels",
+        "job-training",
+        "resume-assistance",
+        "financial-counseling",
+        "housing-referral",
+        "addiction-recovery",
+        "mental-health-support",
+        "biblical-counseling",
+        "childcare-support",
+        "transportation-assistance",
+        "disaster-relief",
+        "holiday-meals",
+        "school-supplies",
+        "elder-care-support",
+        "pregnancy-support",
+        "grief-counseling"
+        ]
+  }
+}
