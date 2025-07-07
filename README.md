@@ -1,7 +1,9 @@
-# Project C.H.U.R.C.H: Christians Helping the Underserved with Resources, Care, Hunger.
-#### Ending Rural Hunger:
+# Project C.H.U.R.C.H: Christ Helping the Underserved with Resources, Care, Hunger.
+#### A desire to help in ending rural hunger:
+- Mission Statement:
+    - To serve the charities that desire to serve Lord Jesus of Nazareth, the Messiah. So that the hungry will be fed, the naked clothed, the widow cared for, and the mentally infirm, considered, in the name of Jesus Christ. To live the values of Matthew 25, and consider the cold cup of water from Matthew 10.
 - This is software designed to...
-    - streamline the IT/Infrastructure of complex charity operations, involved in the distribution of food, clothing, toiletries, and other operations.
+    - Streamline the IT/Infrastructure of charity operations specific to food, clothing, and care, charities involved in the distribution of food, clothing, toiletries, counsel, and other operations for our most vulnerable. 
     - Creates extremely low-cost, cloud-enabled infrastructure, reducing start-up costs.
     - Easily auditable, from costs, to compliance for those who do take government assistance.
     - Creates a secure storage location for user data that is required for compliance, and basic anti-fraud detection.
@@ -14,5 +16,12 @@
     - Help administrators ship a 'deploy and forget' backend that realistically should never have costs exceeding 15 USD per month, which is competitive compared with the costs of hosting otherwise.
     - Simplifies the ingestion, storage, security, of said user data, with class leading cloud infrastructure, that is already fantastically secure to start with.
 
-## Contributing: 
-- Ship a branch, and contact us here using the built into tools. Pay attention to style, and always include documentation updates for what you produce. Techinically speaking, code is self-documenting, but there is a cost in translation, so I'd ask you to be considerate of others, and especially the target audience.
+#### Contributing: 
+- Want to contribute code? Ship a branch, and contact us here using the built into tools. 
+    - Pay attention to style, and always include documentation updates for what you produce. Techinically speaking, code is self-documenting, but there is a cost in translation, so I'd ask you to be considerate of others, and especially the target audience, and simply right documentation.
+    - Please include a summary of changes.
+- Reporting an issue?
+    - Use Github's built in tools.
+    - Include as much information as possible.
+    - If the issue is opaque, please be willing to meet over zoom/webex/etc.
+

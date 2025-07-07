@@ -1,6 +1,6 @@
-# Welcome to your CDK TypeScript project
+# CDK Project CHURCH:
 
-This is a blank project for CDK development with TypeScript.
+This Project is TypeScript based project.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 

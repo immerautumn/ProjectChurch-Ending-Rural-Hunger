@@ -1,4 +1,5 @@
 * Create the basic table data definition for user data.
+* Add dependents and number of dependents with user ages, names, etc, so they can be part of one file.
 * Create a second CDK stack for the S3 and DynamoDB storage. One that is protected removalPolicy: RETAIN, protect: true
 * Add the DynamoDB table to CDK, and see if it is possible 
 * Fleshout the Ingest Lambda Function:
