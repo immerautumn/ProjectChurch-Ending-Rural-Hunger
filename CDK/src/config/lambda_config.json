@@ -1,0 +1,6 @@
+{
+    "use_dynamodb_config_table": false,
+    "dynamo_db_config_table": "arn://foo_bar",
+    "dynamo_db_tables": ["userData", "programDetails", "budgetData", "inventory"],
+    "region": "us-east-1"
+}
